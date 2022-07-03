@@ -1,0 +1,19 @@
+{
+  "name": "puppeteerautomation",
+  "version": "15.3.0",
+  "description": "web automation with puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/tests.js --timeout 50000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "puppeteer": "^15.3.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.1"
+  }
+}
